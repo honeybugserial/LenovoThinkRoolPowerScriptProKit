@@ -14,7 +14,7 @@ Look up warranty status, export warranty and machine config report to pdf, pull 
 </p>
 <p align="center">
   <img src="https://github.com/honeybugserial/LenovoThinkRoolPowerScriptProKit/blob/main/Screenshot003.png" width="48%"/>
-  <img src="https://github.com/honeybugserial/LenovoThinkRoolPowerScriptProKit/blob/main/Screenshot004.png" width="48%"/>
+  <img src="https://github.com/honeybugserial/LenovoThinkRoolPowerScriptProKit/blob/main/Screenshot004.png" width="30%"/>
 </p>
 
 ---
