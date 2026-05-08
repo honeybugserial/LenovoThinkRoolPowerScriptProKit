@@ -1,0 +1,116 @@
+# ============================================================
+# Lenovo Toolkit - Tools Configuration
+# ============================================================
+# Each [[tool]] block creates a button in the Tools tab.
+#
+# Fields:
+#   label       = "Button label"            (required)
+#   command     = "command to run"          (required)
+#   icon        = "🔧"                      (optional)
+#   description = "Tooltip text"            (optional)
+#   shell       = "powershell" or "cmd"     (optional, default: powershell)
+#   confirm     = true                      (optional, shows confirmation first)
+# ============================================================
+[[tool]]
+label = "Microsoft Activation Scripts (MAS) - massgrave.dev"
+icon = "🎫"
+description = "Microsoft Activation Scripts (MAS) - massgrave.dev"
+command = "irm https://get.activated.win | iex"
+shell = "powershell"
+terminal = true    # opens in a visible window instead of output panel
+confirm = true
+
+[[tool]]
+label = "Winhance - Windows Enhancement Utility"
+icon = "🚀"
+description = "Winhance is a C# application designed to debloat, optimize and customize your Windows experience. - github/memstechtips"
+github = "memstechtips/Winhance"
+asset_regex = 'Winhance.Installer*\.exe$'
+run_after = true
+confirm = true
+
+[[tool]]
+label = "WinUtil (CTT)"
+icon = "🛠️"
+description = "Chris Titus Tech Windows Utility"
+command = "irm christitus.com/win | iex"
+shell = "powershell"
+terminal = true
+confirm = true
+
+[[tool]]
+label = "Test Mode + DriverSignatureEnforcement Controller"
+icon = "👮"
+description = "Enable or Disable Windows Test Mode and Driver Signature Enforcement (DSE)"
+github = "honeybugserial/WinTestModeDSE"
+asset_regex = '\.exe$'
+run_after = true
+confirm = true
+
+[[tool]]
+label = "Defender Remover / Defender Disabler"
+icon = "❌️"
+description = "Removes / Disables Windows Defender with all related security components. - github/ionuttbara"
+github = "ionuttbara/windows-defender-remover"
+asset_regex = 'DefenderRemover*\.exe$'
+run_after = true
+confirm = true
+
+[[tool]]
+label = "Install Chocolatey"
+icon = "🍫"
+description = "Install the Chocolatey package manager"
+command = "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))"
+shell = "powershell"
+terminal = true
+confirm = true
+
+[[tool]]
+label = "WinUpdateMiniTool"
+icon = "🔄"
+description = "Fetch and run latest WinUpdateMiniTool"
+github = "sergiye/winUpdateMiniTool"
+asset_regex = "winUpdateMiniTool\\.exe$"
+run_after = true
+confirm = true
+
+[[tool]]
+label = "Install Microsoft Office"
+icon = "📚"
+description = "Microsoft Office Installation Tool  - github/installoffice"
+command = "iex (irm setup.installoffice.org)"
+shell = "powershell"
+terminal = true
+confirm = true
+
+[[tool]]
+label = "Windows Language Switcher"
+icon = "🌐"
+description = "Windows Language Changer"
+github = "honeybugserial/LanguageMcLanguageFace-Windows-Language-Changer-Installer-Tool"
+asset_regex = 'langSwitch.*\.exe$'
+run_after = true
+confirm = true
+
+[[tool]]
+label = "Download Windows ISO - massgrave.dev"
+icon = "💿"
+description = "Download Genuine Windows ISO - massgrave.dev"
+command = "start https://massgrave.dev/genuine-installation-media"
+shell = "cmd"
+
+[[tool]]
+label = "Lenovo USB Recovery Creator - lenovo.com"
+icon = "💿"
+description = "Download Lenovo USB Recovery Creator"
+command = "start https://tools.dds.lenovo.com/win8/USBRecoveryCreator.exe"
+shell = "cmd"
+
+[[tool]]
+label = "Rufus"
+icon = "🔴"
+description = "Fetch and run latest Rufus"
+github = "pbatard/rufus"
+asset_regex = 'rufus-[\d.]+p\.exe$'
+run_after = true
+confirm = true
