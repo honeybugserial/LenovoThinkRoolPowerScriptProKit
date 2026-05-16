@@ -30,6 +30,15 @@ run_after = true
 confirm = true
 
 [[tool]]
+label = "Remove Windows Ai"
+icon = "🤖"
+description = "Complete Removal of Windows AI features and components"
+command = '& ([scriptblock]::Create((irm "https://raw.githubusercontent.com/zoicware/RemoveWindowsAI/main/RemoveWindowsAi.ps1")))'
+shell = "powershell"
+terminal = true
+confirm = true
+
+[[tool]]
 label = "WinUtil (CTT)"
 icon = "🛠️"
 description = "Chris Titus Tech Windows Utility"
@@ -112,5 +121,14 @@ icon = "🔴"
 description = "Fetch and run latest Rufus"
 github = "pbatard/rufus"
 asset_regex = 'rufus-[\d.]+p\.exe$'
+run_after = true
+confirm = true
+
+[[tool]]
+label = "Register WinRAR"
+icon = "🔑"
+description = "Activate WinRAR"
+github = "bitcookies/winrar-keygen"
+asset_regex = "winrar-keygen-gui-x64\\.exe$"
 run_after = true
 confirm = true
