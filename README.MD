@@ -11,6 +11,9 @@ Look up warranty status, export warranty and machine config report to pdf, pull 
   <img src="https://github.com/honeybugserial/LenovoThinkRoolPowerScriptProKit/blob/main/Screenshot005.png"/>
 </p>
 
+| Version | Download |
+|---|---|
+| v4.6.9 | [LenovoThinkRoolPowerScriptProKit_v4_6_9.exe](https://archive.org/download/lenovo-think-tool-power-script-pro-kit-v-4-6-9/LenovoThinkToolPowerScriptProKit_v4_6_9.exe) |
 ---
 
 ## Screenshots
