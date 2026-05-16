@@ -6,6 +6,13 @@ Look up warranty status, export warranty and machine config report to pdf, pull 
 
 ---
 
+# Updated tools.toml May 2026
+<p align="center">
+  <img src="https://github.com/honeybugserial/LenovoThinkRoolPowerScriptProKit/blob/main/Screenshot005.png"/>
+</p>
+
+---
+
 ## Screenshots
 
 <p align="center">
