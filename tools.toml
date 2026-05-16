@@ -12,7 +12,7 @@
 #   confirm     = true                      (optional, shows confirmation first)
 # ============================================================
 [[tool]]
-label = "Microsoft Activation Scripts (MAS) - massgrave.dev"
+label = "Microsoft Activation Scripts (MAS)"
 icon = "🎫"
 description = "Microsoft Activation Scripts (MAS) - massgrave.dev"
 command = "irm https://get.activated.win | iex"
