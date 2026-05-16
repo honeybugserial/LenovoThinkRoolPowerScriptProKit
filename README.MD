@@ -55,7 +55,7 @@ Look up warranty status, export warranty and machine config report to pdf, pull 
 
 | Version | Download |
 |---|---|
-| v4.6.8 | [LenovoThinkRoolPowerScriptProKit_v4_6_8.exe](https://archive.org/download/lenovo-think-rool-power-script-pro-kit-v-4-6-8/LenovoThinkRoolPowerScriptProKit_v4_6_8.exe) |
+| v4.6.8 | [LenovoThinkRoolPowerScriptProKit_v4_6_8.exe](https://archive.org/download/lenovo-think-tool-power-script-pro-kit-v-4-6-9/LenovoThinkToolPowerScriptProKit_v4_6_9.exe) |
 
 ---
 
